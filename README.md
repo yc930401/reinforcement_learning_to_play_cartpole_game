@@ -29,51 +29,49 @@ Please read the refered articles for more details about the concept of Deep-Q-Le
 ## Result
 
 ### DQN
-episode: 473/800, score: 499, e: 0.094
-episode: 474/800, score: 499, e: 0.094
-episode: 475/800, score: 499, e: 0.093
-episode: 476/800, score: 499, e: 0.093
-episode: 477/800, score: 337, e: 0.092
-episode: 478/800, score: 499, e: 0.092
-episode: 479/800, score: 499, e: 0.092
-episode: 480/800, score: 499, e: 0.091
-episode: 481/800, score: 499, e: 0.091
-episode: 482/800, score: 499, e: 0.09
-episode: 483/800, score: 499, e: 0.09
-episode: 484/800, score: 499, e: 0.089
-episode: 485/800, score: 499, e: 0.089
-episode: 486/800, score: 499, e: 0.088
-episode: 487/800, score: 499, e: 0.088
-episode: 488/800, score: 249, e: 0.088
-episode: 489/800, score: 499, e: 0.087
-episode: 490/800, score: 499, e: 0.087
-episode: 491/800, score: 499, e: 0.086
-episode: 492/800, score: 499, e: 0.086
+episode: 473/800, score: 499, e: 0.094</br>
+episode: 474/800, score: 499, e: 0.094</br>
+episode: 475/800, score: 499, e: 0.093</br>
+episode: 476/800, score: 499, e: 0.093</br>
+episode: 477/800, score: 337, e: 0.092</br>
+episode: 478/800, score: 499, e: 0.092</br>
+episode: 479/800, score: 499, e: 0.092</br>
+episode: 480/800, score: 499, e: 0.091</br>
+episode: 481/800, score: 499, e: 0.091</br>
+episode: 482/800, score: 499, e: 0.09</br>
+episode: 483/800, score: 499, e: 0.09</br>
+episode: 484/800, score: 499, e: 0.089</br>
+episode: 485/800, score: 499, e: 0.089</br>
+episode: 486/800, score: 499, e: 0.088</br>
+episode: 487/800, score: 499, e: 0.088</br>
+episode: 488/800, score: 249, e: 0.088</br>
+episode: 489/800, score: 499, e: 0.087</br>
+episode: 490/800, score: 499, e: 0.087</br>
+episode: 491/800, score: 499, e: 0.086</br>
+episode: 492/800, score: 499, e: 0.086</br>
 
 ### Actor-Critic
-episode: 576/800, score: 499, e: 0.056
-episode: 577/800, score: 499, e: 0.056
-episode: 578/800, score: 499, e: 0.056
-episode: 579/800, score: 499, e: 0.055
-episode: 580/800, score: 499, e: 0.055
-episode: 581/800, score: 499, e: 0.055
-episode: 582/800, score: 499, e: 0.055
-episode: 583/800, score: 499, e: 0.054
-episode: 584/800, score: 499, e: 0.054
-episode: 585/800, score: 499, e: 0.054
-episode: 586/800, score: 499, e: 0.054
-episode: 587/800, score: 499, e: 0.053
-episode: 588/800, score: 499, e: 0.053
-episode: 589/800, score: 499, e: 0.053
-episode: 590/800, score: 499, e: 0.052
-episode: 591/800, score: 499, e: 0.052
-episode: 592/800, score: 297, e: 0.052
-episode: 593/800, score: 287, e: 0.052
-episode: 594/800, score: 499, e: 0.051
-episode: 595/800, score: 499, e: 0.051
-episode: 596/800, score: 499, e: 0.051
-episode: 597/800, score: 499, e: 0.051
-episode: 598/800, score: 499, e: 0.05
+episode: 576/800, score: 499, e: 0.056</br>
+episode: 577/800, score: 499, e: 0.056</br>
+episode: 578/800, score: 499, e: 0.056</br>
+episode: 579/800, score: 499, e: 0.055</br>
+episode: 580/800, score: 499, e: 0.055</br>
+episode: 581/800, score: 499, e: 0.055</br>
+episode: 582/800, score: 499, e: 0.055</br>
+episode: 583/800, score: 499, e: 0.054</br>
+episode: 584/800, score: 499, e: 0.054</br>
+episode: 585/800, score: 499, e: 0.054</br>
+episode: 586/800, score: 499, e: 0.054</br>
+episode: 587/800, score: 499, e: 0.053</br>
+episode: 588/800, score: 499, e: 0.053</br>
+episode: 589/800, score: 499, e: 0.053</br>
+episode: 590/800, score: 499, e: 0.052</br>
+episode: 591/800, score: 499, e: 0.052</br>
+episode: 592/800, score: 297, e: 0.052</br>
+episode: 593/800, score: 287, e: 0.052</br>
+episode: 594/800, score: 499, e: 0.051</br>
+episode: 595/800, score: 499, e: 0.051</br>
+episode: 596/800, score: 499, e: 0.051</br>
 
 ## References
 https://flyyufelix.github.io/2017/10/12/dqn-vs-pg.html </br>
