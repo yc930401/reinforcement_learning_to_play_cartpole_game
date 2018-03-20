@@ -90,7 +90,7 @@ if __name__ == "__main__":
     state_size = env.observation_space.shape[0]
     action_size = env.action_space.n
     agent = ACAgent(state_size, action_size)
-    # agent.load("cartpole-ac.h5")
+    # agent.load("cartpole-actor.h5", "cartpole-critic.h5")
     done = False
     batch_size = 32
 
@@ -113,4 +113,4 @@ if __name__ == "__main__":
             agent.critic_replay(batch_size)
             agent.actor_reply(batch_size)
         # if e % 10 == 0:
-        #     agent.save("cartpole-ac.h5")
+        #     agent.save("cartpole-ac.h5", "cartpole-critic.h5")

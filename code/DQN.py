@@ -7,7 +7,7 @@ from keras.models import Sequential
 from keras.layers import Dense
 from keras.optimizers import Adam
 
-EPISODES = 1000
+EPISODES = 800
 
 
 class DQNAgent:
@@ -25,8 +25,8 @@ class DQNAgent:
     def _build_model(self):
         # Neural Net for Deep-Q learning Model
         model = Sequential()
-        model.add(Dense(24, input_dim=self.state_size, activation='relu'))
-        model.add(Dense(24, activation='relu'))
+        model.add(Dense(48, init='lecun_uniform', input_dim=self.state_size, activation='relu'))
+        model.add(Dense(48, init='lecun_uniform', activation='relu'))
         model.add(Dense(self.action_size, activation='linear'))
         model.compile(loss='mse',
                       optimizer=Adam(lr=self.learning_rate))
@@ -34,7 +34,7 @@ class DQNAgent:
 
     def remember(self, state, action, reward, next_state, done):
         self.memory.append((state, action, reward, next_state, done))
-        print(self.memory[-1])
+        #print(self.memory[-1])
 
     def act(self, state):
         if np.random.rand() <= self.epsilon:
@@ -51,7 +51,7 @@ class DQNAgent:
                           np.amax(self.model.predict(next_state)[0]))
             target_f = self.model.predict(state)
             target_f[0][action] = target
-            self.model.fit(state, target_f, epochs=1, verbose=0)
+            self.model.fit(state, target_f, epochs=2, verbose=0)
         if self.epsilon > self.epsilon_min:
             self.epsilon *= self.epsilon_decay
 
